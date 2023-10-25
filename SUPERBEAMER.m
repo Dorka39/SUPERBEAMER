@@ -2,7 +2,7 @@ clc;
 % Prompt the user for input or use saved tensor stresses
 use_saved_stresses = input('Do you want to use saved tensor stresses? (y/n): ', 's');
 
-if strcmpi(use_saved_stresses, 'y')
+if strcmpi(use_saved_stresses, 'y') % Stromboloi
     % Given stress tensor components
 
 else
